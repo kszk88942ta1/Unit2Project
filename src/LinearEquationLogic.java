@@ -17,11 +17,21 @@ public class LinearEquationLogic {
         System.out.println("The distance between the two points is ");
 
         System.out.println("Enter a value for x ");
-        //int xValue = Scanner.nextInt;
+        //int xValue = Scanner.nextInt();
 
         System.out.println("The point on the line is ");
 
         System.out.println("Would you like to enter another pair of coordinates? y/n: ";
+        String yesNo = Scanner.nextLine();
+        String yes = ("y");
+        String no = ("no");
+
+            if (yesNo == yes) {
+                getCoordinates();
+            } else {
+
+            }
+
 
     }
 
